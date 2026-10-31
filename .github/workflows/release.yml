@@ -1,0 +1,56 @@
+name: release
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        type: boolean
+        default: true
+permissions:
+  contents: write
+  id-token: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      # Scheduled runs stay dry until the first real release is approved.
+      DRY_RUN: ${{ github.event_name == 'schedule' || inputs.dry_run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Skip when nothing changed
+        id: changes
+        run: |
+          latest=$(git tag --list 'v*' --sort=-creatordate | head -1)
+          if [ -n "$latest" ] && [ -z "$(git rev-list "$latest..HEAD")" ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/setup-node@v4
+        if: steps.changes.outputs.skip != 'true'
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+      - if: steps.changes.outputs.skip != 'true'
+        run: npm ci
+      - if: steps.changes.outputs.skip != 'true'
+        run: npm run validate
+      - name: Bundle
+        if: steps.changes.outputs.skip != 'true'
+        run: |
+          V=$(node scripts/next-version.mjs)
+          echo "V=$V" >> "$GITHUB_ENV"
+          npx chordl-voicing bundle --out dist --version "$V"
+          npm version --no-git-tag-version "${V#v}"
+      - uses: actions/upload-artifact@v4
+        if: steps.changes.outputs.skip != 'true'
+        with:
+          name: dist
+          path: dist
+      - name: Publish
+        if: steps.changes.outputs.skip != 'true' && env.DRY_RUN != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git tag "$V" && git push origin "$V"
+          gh release create "$V" dist/manifest.json dist/catalogue.json --generate-notes
+          npm publish --provenance --access public

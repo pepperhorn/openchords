@@ -1,0 +1,16 @@
+{
+  "name": "@pepperhorn/openchords",
+  "version": "0.0.0",
+  "description": "Open CC0 chord voicing catalogue (keyboard, fretted, bowed)",
+  "license": "CC0-1.0",
+  "repository": { "type": "git", "url": "git+https://github.com/pepperhorn/openchords.git" },
+  "files": ["dist"],
+  "scripts": {
+    "validate": "chordl-voicing validate --licences licences.json",
+    "format": "chordl-voicing format",
+    "bundle": "chordl-voicing bundle --out dist"
+  },
+  "devDependencies": {
+    "@pepperhorn/chordl-voicing": "0.2.0"
+  }
+}

@@ -1,0 +1,31 @@
+name: validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx chordl-voicing format --check
+      - name: Validate against the base branch
+        if: github.event_name == 'pull_request'
+        run: |
+          git worktree add ../base ${{ github.event.pull_request.base.sha }}
+          npx chordl-voicing validate --base ../base --licences licences.json
+      - name: Validate main
+        if: github.event_name == 'push'
+        run: npx chordl-voicing validate --licences licences.json
+      - name: DCO
+        if: github.event_name == 'pull_request'
+        run: scripts/check-dco.sh ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }}
