@@ -1,0 +1,204 @@
+{
+  "schema": "chordl.chord/1",
+  "chord": {
+    "id": "C#:dim/E",
+    "symbol": "C#dim/E",
+    "root": "C#",
+    "quality": "dim",
+    "bass": "E",
+    "aliases": []
+  },
+  "voicings": [
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_329K07DFSB63QPS6PSQE2RNA51",
+      "rev": 1,
+      "previous": null,
+      "chordId": "C#:dim/E",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "E3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "C#4",
+          "degree": "I"
+        },
+        {
+          "pitch": "E4",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "G4",
+          "degree": "bV"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [
+            "E3"
+          ],
+          "right": [
+            "C#4",
+            "E4",
+            "G4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-10-31T00:24:47.192Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:bfe8e07cf6d14bd9d525984dc0b6e857140e5d56dd15df1a3f8aa3431d0abb33",
+        "pitch": "sha256:5a1678fdc7ad3a18902b3030ed2466867ff8f8ff3045618064c2add858cefb74"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_4FEP8AVCGS47T0ZNZDQQZPB3RT",
+      "rev": 1,
+      "previous": null,
+      "chordId": "C#:dim/E",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "E2",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "E3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "G3",
+          "degree": "bV"
+        },
+        {
+          "pitch": "C#4",
+          "degree": "I"
+        },
+        {
+          "pitch": "E4",
+          "degree": "bIII"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          0,
+          null,
+          2,
+          0,
+          2,
+          0
+        ],
+        "fingers": [
+          null,
+          null,
+          1,
+          null,
+          2,
+          null
+        ],
+        "baseFret": 1,
+        "barres": [],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordl-guitar@0.3.0",
+        "authorId": "system:chordl-guitar@0.3.0",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:30dcd8d30024e30fcb5d2e06da8380cd0b22d35c28c1fc2ebc9d7ba92dfd6a0a",
+        "pitch": "sha256:8093e8ab9250e423bce68d1a96f4fc2be1aa2e8add19b78762f30afef4ea46be"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_4H7Z01AGWEA4CYETBBSE6S2E68",
+      "rev": 1,
+      "previous": null,
+      "chordId": "C#:dim/E",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "E3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "G3",
+          "degree": "bV"
+        },
+        {
+          "pitch": "C#4",
+          "degree": "I"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [
+            "E3"
+          ],
+          "right": [
+            "G3",
+            "C#4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:450fd2999ef618c1639ced192d0757eb545feaf76880a54be3e71459b219a101",
+        "pitch": "sha256:ec7414016967e3cab2e7b88cf8cfd9dc2d1957876e070594cbe83ee33a0b3304"
+      }
+    }
+  ]
+}
