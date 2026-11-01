@@ -1,0 +1,155 @@
+{
+  "schema": "chordl.chord/1",
+  "chord": {
+    "id": "Db:mmaj7/C",
+    "symbol": "Dbmmaj7/C",
+    "root": "Db",
+    "quality": "mmaj7",
+    "bass": "C",
+    "aliases": []
+  },
+  "voicings": [
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_77TG29PYY7310SHYT9F16NBMPK",
+      "rev": 1,
+      "previous": null,
+      "chordId": "Db:mmaj7/C",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "C3",
+          "degree": "VII"
+        },
+        {
+          "pitch": "Fb3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "Ab3",
+          "degree": "V"
+        },
+        {
+          "pitch": "Db4",
+          "degree": "I"
+        },
+        {
+          "pitch": "Fb4",
+          "degree": "bIII"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          null,
+          3,
+          2,
+          1,
+          2,
+          0
+        ],
+        "fingers": [
+          null,
+          4,
+          2,
+          1,
+          3,
+          null
+        ],
+        "baseFret": 1,
+        "barres": [],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordl-guitar@0.3.0",
+        "authorId": "system:chordl-guitar@0.3.0",
+        "createdAt": "2026-10-31T00:24:47.192Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:e09e7c403a2b4e5d60a8a13fd072c58b8f0ae0e1131551f64650729c68efe518",
+        "pitch": "sha256:7469076d77df91f960e045cda2a860c8c74934878b048c5abd3fc0fb29c85851"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_7XJW3M97GTDYQAT34E39ME035G",
+      "rev": 1,
+      "previous": null,
+      "chordId": "Db:mmaj7/C",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "C3",
+          "degree": "VII"
+        },
+        {
+          "pitch": "Db3",
+          "degree": "I"
+        },
+        {
+          "pitch": "Fb3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "Ab3",
+          "degree": "V"
+        },
+        {
+          "pitch": "C4",
+          "degree": "VII"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [],
+          "right": [
+            "C3",
+            "Db3",
+            "Fb3",
+            "Ab3",
+            "C4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-10-31T00:24:47.192Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:419ea60bfb44c499af9b8d2122de2bff2c7cbfc974b90bff48989049899da15c",
+        "pitch": "sha256:a0440a051aaced75567d448d738c827b8846aea4ad4b5692f2e090fdd326ed93"
+      }
+    }
+  ]
+}
