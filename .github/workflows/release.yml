@@ -52,5 +52,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           git tag "$V" && git push origin "$V"
-          gh release create "$V" dist/manifest.json dist/catalogue.json --generate-notes
+          gh release create "$V" dist/manifest.json dist/catalogue.json dist/by-instrument/*.json --generate-notes
           npm publish --provenance --access public
