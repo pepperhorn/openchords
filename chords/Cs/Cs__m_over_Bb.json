@@ -1,0 +1,158 @@
+{
+  "schema": "chordl.chord/1",
+  "chord": {
+    "id": "C#:m/Bb",
+    "symbol": "C#m/Bb",
+    "root": "C#",
+    "quality": "m",
+    "bass": "Bb",
+    "aliases": []
+  },
+  "voicings": [
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_40WJ44QDWDQP1427Y16KM6RZ3W",
+      "rev": 1,
+      "previous": null,
+      "chordId": "C#:m/Bb",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Bb3",
+          "degree": "bbVII"
+        },
+        {
+          "pitch": "E4",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "G#4",
+          "degree": "V"
+        },
+        {
+          "pitch": "C#5",
+          "degree": "I"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          null,
+          null,
+          8,
+          9,
+          9,
+          9
+        ],
+        "fingers": [
+          null,
+          null,
+          1,
+          2,
+          2,
+          2
+        ],
+        "baseFret": 8,
+        "barres": [
+          {
+            "fret": 9,
+            "fromString": 3,
+            "toString": 5
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "import:crf@2026-10-31",
+        "authorId": "system:crf",
+        "createdAt": "2026-10-31T00:54:01.410Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "externalIds": {
+        "crf": "031f6043-c362-4f27-8b80-6b6da3dce30d"
+      },
+      "hashes": {
+        "shape": "sha256:579e4e507370bf52c6fdc8d1facbaaab698e8ef8e299d8c979114bbb18dbf997",
+        "pitch": "sha256:9250ad58f04ae954c8b16e924a503cfba8f3d05b7bee4b39167e78ddc7c8c19e"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_5J58VPT8ZQ7BRYA2G5DRZX74E5",
+      "rev": 1,
+      "previous": null,
+      "chordId": "C#:m/Bb",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Bb3",
+          "degree": "bbVII"
+        },
+        {
+          "pitch": "C#4",
+          "degree": "I"
+        },
+        {
+          "pitch": "E4",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "G#4",
+          "degree": "V"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [],
+          "right": [
+            "Bb3",
+            "C#4",
+            "E4",
+            "G#4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "import:crf@2026-10-31",
+        "authorId": "system:crf",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "externalIds": {
+        "crf": "d6583fc8-f92d-4212-9b79-d0157f3cc991"
+      },
+      "hashes": {
+        "shape": "sha256:663c8bea62caa9fa1ed1a0f12f2a644edc6ffd302f8dfcd6dcc4ebad3e9a06b7",
+        "pitch": "sha256:26edcae1461dcf6518db8634042eb13d6ad589ae58d3bcd1a5f0b8c38f5ae44d"
+      }
+    }
+  ]
+}
