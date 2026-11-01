@@ -1,0 +1,208 @@
+{
+  "schema": "chordl.chord/1",
+  "chord": {
+    "id": "G:7/E",
+    "symbol": "G7/E",
+    "root": "G",
+    "quality": "7",
+    "bass": "E",
+    "aliases": []
+  },
+  "voicings": [
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_0PA52HHW3DF6B9HJXCRAC1W7VP",
+      "rev": 1,
+      "previous": null,
+      "chordId": "G:7/E",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "E3",
+          "degree": "XIII"
+        },
+        {
+          "pitch": "G3",
+          "degree": "I"
+        },
+        {
+          "pitch": "B3",
+          "degree": "III"
+        },
+        {
+          "pitch": "D4",
+          "degree": "V"
+        },
+        {
+          "pitch": "F4",
+          "degree": "bVII"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [],
+          "right": [
+            "E3",
+            "G3",
+            "B3",
+            "D4",
+            "F4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:2b3f7f941ad39dc57ec4b2c1edba53b232e13b65770b4a78370d72fdab141530",
+        "pitch": "sha256:2a13c92609bdf198375dc33d71c8b5a888f69c1a4c6ff434e27da45492c1e433"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_4EGC7FKCCYB2QMRC1KTPZVS0Z0",
+      "rev": 1,
+      "previous": null,
+      "chordId": "G:7/E",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "E2",
+          "degree": "XIII"
+        },
+        {
+          "pitch": "D3",
+          "degree": "V"
+        },
+        {
+          "pitch": "G3",
+          "degree": "I"
+        },
+        {
+          "pitch": "B3",
+          "degree": "III"
+        },
+        {
+          "pitch": "F4",
+          "degree": "bVII"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          1
+        ],
+        "fingers": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordl-guitar@0.3.0",
+        "authorId": "system:chordl-guitar@0.3.0",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:20a7fd53a996393eb0976b35e9a7d864136a3679d9502ae06ddaf371324c0424",
+        "pitch": "sha256:c21167ea5269dc6cfa986a881e2c20e6ecbf05cd412a87c722627fea73b47179"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_6JM15MTEXZSQVYB1617F80SDEF",
+      "rev": 1,
+      "previous": null,
+      "chordId": "G:7/E",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "E3",
+          "degree": "XIII"
+        },
+        {
+          "pitch": "F3",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "B3",
+          "degree": "III"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [
+            "E3"
+          ],
+          "right": [
+            "F3",
+            "B3"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:af71fbe1877ef54bc4c52e20babb084acfe6f22ca07fea7d0e5ef1156d3f30d3",
+        "pitch": "sha256:77d9397f82c155660c4fcba382ca5d41eecd78ffbffe10b6274e53d53d82a661"
+      }
+    }
+  ]
+}
