@@ -1,0 +1,354 @@
+{
+  "schema": "chordl.chord/1",
+  "chord": {
+    "id": "F#:m/B",
+    "symbol": "F#m/B",
+    "root": "F#",
+    "quality": "m",
+    "bass": "B",
+    "aliases": []
+  },
+  "voicings": [
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_10P4KKZGCFNV3HD1DP238SW80Q",
+      "rev": 1,
+      "previous": null,
+      "chordId": "F#:m/B",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "B3",
+          "degree": "XI"
+        },
+        {
+          "pitch": "F#4",
+          "degree": "I"
+        },
+        {
+          "pitch": "A4",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "C#5",
+          "degree": "V"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [],
+          "right": [
+            "B3",
+            "F#4",
+            "A4",
+            "C#5"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:f64833e8ddf2eaef1a721bd7396614326a815338e11f0202e3b44bce7727fad3",
+        "pitch": "sha256:b5f972ce49b4f255fda292996a49eb7c89a13cffeff76d607a58b99e49305b5c"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_1CCFZCYWXX9V47JX43J4HBB8MW",
+      "rev": 1,
+      "previous": null,
+      "chordId": "F#:m/B",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "B3",
+          "degree": "XI"
+        },
+        {
+          "pitch": "F#4",
+          "degree": "I"
+        },
+        {
+          "pitch": "A4",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "C#5",
+          "degree": "V"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          null,
+          null,
+          9,
+          11,
+          10,
+          9
+        ],
+        "fingers": [
+          null,
+          null,
+          1,
+          3,
+          2,
+          1
+        ],
+        "baseFret": 9,
+        "barres": [
+          {
+            "fret": 9,
+            "fromString": 2,
+            "toString": 5
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "import:crf@2026-10-31",
+        "authorId": "system:crf",
+        "createdAt": "2026-10-31T00:54:01.410Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "externalIds": {
+        "crf": "6dc48fde-5349-44a4-8d17-d1e2b66c9c7c"
+      },
+      "hashes": {
+        "shape": "sha256:db9732ef8391c0858d8187f112a2d3fb7a93d9093d3e2230fa652cf70ea68c1f",
+        "pitch": "sha256:b5f972ce49b4f255fda292996a49eb7c89a13cffeff76d607a58b99e49305b5c"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_4PJWEBK47M52JAEGW95D3QNF4W",
+      "rev": 1,
+      "previous": null,
+      "chordId": "F#:m/B",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "B2",
+          "degree": "XI"
+        },
+        {
+          "pitch": "F#3",
+          "degree": "I"
+        },
+        {
+          "pitch": "A3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "C#4",
+          "degree": "V"
+        },
+        {
+          "pitch": "F#4",
+          "degree": "I"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          null,
+          2,
+          4,
+          2,
+          2,
+          2
+        ],
+        "fingers": [
+          null,
+          null,
+          3,
+          null,
+          null,
+          null
+        ],
+        "baseFret": 1,
+        "barres": [
+          {
+            "fret": 2,
+            "fromString": 1,
+            "toString": 5
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordl-guitar@0.3.0",
+        "authorId": "system:chordl-guitar@0.3.0",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:55af25a46c9ece49bac649c8a79b2fce278f270cba6e4d2f5506138cf6b4126d",
+        "pitch": "sha256:6344dbe4fc3c528a12e311641ae15f6441aae0e032bcf147e6aec13a0cedd7ca"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_5X8XNG4P2R3XJMT8Z6S77K18KR",
+      "rev": 1,
+      "previous": null,
+      "chordId": "F#:m/B",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "B3",
+          "degree": "XI"
+        },
+        {
+          "pitch": "C#4",
+          "degree": "V"
+        },
+        {
+          "pitch": "F#4",
+          "degree": "I"
+        },
+        {
+          "pitch": "A4",
+          "degree": "bIII"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [],
+          "right": [
+            "B3",
+            "F#4",
+            "A4",
+            "C#4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "import:crf@2026-10-31",
+        "authorId": "system:crf",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "externalIds": {
+        "crf": "8c39ec9e-21d5-4be8-afdd-b4161b5b4c05"
+      },
+      "hashes": {
+        "shape": "sha256:d97084856a64ead69008ed4c0efe4fc16d6d2d9a70f1eef33b91d9ae5ca40e2b",
+        "pitch": "sha256:d7ee4b7b2d1b242e5e0cd68f468e0fbf6224361dba03a1b457a949214b62d0d2"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_603TYWEST7SSPR4AY9AHX2P93K",
+      "rev": 1,
+      "previous": null,
+      "chordId": "F#:m/B",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "B3",
+          "degree": "XI"
+        },
+        {
+          "pitch": "C#4",
+          "degree": "V"
+        },
+        {
+          "pitch": "A4",
+          "degree": "bIII"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [
+            "B3"
+          ],
+          "right": [
+            "C#4",
+            "A4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:db84f807b8c44c644b4b9d3404a3e5680a5c2f28054ecb9fbefddd19275df5d0",
+        "pitch": "sha256:d095e2e85f81493e30ef13f5802929b115c37fbc5067564d6fc874449dadbbe8"
+      }
+    }
+  ]
+}
