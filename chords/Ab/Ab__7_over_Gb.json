@@ -1,0 +1,151 @@
+{
+  "schema": "chordl.chord/1",
+  "chord": {
+    "id": "Ab:7/Gb",
+    "symbol": "Ab7/Gb",
+    "root": "Ab",
+    "quality": "7",
+    "bass": "Gb",
+    "aliases": []
+  },
+  "voicings": [
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_31QFEBDP5KJD7TGVBHXQQWPVA5",
+      "rev": 1,
+      "previous": null,
+      "chordId": "Ab:7/Gb",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Gb2",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "C3",
+          "degree": "III"
+        },
+        {
+          "pitch": "Eb3",
+          "degree": "V"
+        },
+        {
+          "pitch": "Ab3",
+          "degree": "I"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          2,
+          3,
+          1,
+          1,
+          null,
+          null
+        ],
+        "fingers": [
+          3,
+          4,
+          1,
+          2,
+          null,
+          null
+        ],
+        "baseFret": 1,
+        "barres": [],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordl-guitar@0.3.0",
+        "authorId": "system:chordl-guitar@0.3.0",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:20dcf914fa2ca1485e08cc5df3baa69e093951ce36459691217eae8b47073622",
+        "pitch": "sha256:17b1881079a81f648f6b81b09eb3d77a01d167e69676f23a09205e84e53cc2ef"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_4MFRZ5MKW89NHKZ0EQSGHM7VX1",
+      "rev": 1,
+      "previous": null,
+      "chordId": "Ab:7/Gb",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Gb3",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "Ab3",
+          "degree": "I"
+        },
+        {
+          "pitch": "C4",
+          "degree": "III"
+        },
+        {
+          "pitch": "Eb4",
+          "degree": "V"
+        },
+        {
+          "pitch": "Gb4",
+          "degree": "bVII"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [],
+          "right": [
+            "Gb3",
+            "Ab3",
+            "C4",
+            "Eb4",
+            "Gb4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:5cf8c8b3036a2e2da6bb326991ce1ac6129a2ead1f75276f14cc66f4c3df6252",
+        "pitch": "sha256:edac5c048a79c89ed9cbc3f575d81f9d6a60e8915590d190d49191bf813383dd"
+      }
+    }
+  ]
+}
