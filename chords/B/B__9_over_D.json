@@ -1,0 +1,161 @@
+{
+  "schema": "chordl.chord/1",
+  "chord": {
+    "id": "B:9/D",
+    "symbol": "B9/D",
+    "root": "B",
+    "quality": "9",
+    "bass": "D",
+    "aliases": []
+  },
+  "voicings": [
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_0AF7KB3RAGBE4KCJ35E72PAY7G",
+      "rev": 1,
+      "previous": null,
+      "chordId": "B:9/D",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "D3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "A3",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "B3",
+          "degree": "I"
+        },
+        {
+          "pitch": "D#4",
+          "degree": "III"
+        },
+        {
+          "pitch": "C#5",
+          "degree": "IX"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          10,
+          null,
+          7,
+          8,
+          0,
+          9
+        ],
+        "fingers": [
+          4,
+          null,
+          1,
+          2,
+          null,
+          3
+        ],
+        "baseFret": 7,
+        "barres": [],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordl-guitar@0.3.0",
+        "authorId": "system:chordl-guitar@0.3.0",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:af78f62f365541575ebf61c2a5e05cfa183044d8b16a1b55ec333eb8c97f4b6a",
+        "pitch": "sha256:1d8cdcd617ab782ad0ecc7fa9f8207e97a2d395a68be51e10879fa5de44fa481"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_0YEW2V97APYWRZKH6E6Z8FEE9B",
+      "rev": 1,
+      "previous": null,
+      "chordId": "B:9/D",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "D3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "B3",
+          "degree": "I"
+        },
+        {
+          "pitch": "D#4",
+          "degree": "III"
+        },
+        {
+          "pitch": "F#4",
+          "degree": "V"
+        },
+        {
+          "pitch": "A4",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "C#5",
+          "degree": "IX"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [
+            "D3"
+          ],
+          "right": [
+            "B3",
+            "D#4",
+            "F#4",
+            "A4",
+            "C#5"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-10-31T00:24:47.192Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:d0e3fdec53f51ed4dee545666837d753354b81d473af6f112ff88d2d481ecade",
+        "pitch": "sha256:d9fb5b50180f125fae92ed3687e8762411ceca46e7e15a4969ee5cb6c4ba56df"
+      }
+    }
+  ]
+}
