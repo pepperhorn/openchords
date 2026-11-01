@@ -1,0 +1,73 @@
+{
+  "schema": "chordl.chord/1",
+  "chord": {
+    "id": "E:7alt",
+    "symbol": "E7alt",
+    "root": "E",
+    "quality": "7alt",
+    "bass": null,
+    "aliases": []
+  },
+  "voicings": [
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_5CBTCT9N8KAE0T5Q8ZSN651Z81",
+      "rev": 1,
+      "previous": null,
+      "chordId": "E:7alt",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "C4",
+          "degree": "bXIII"
+        },
+        {
+          "pitch": "D4",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "E4",
+          "degree": "I"
+        },
+        {
+          "pitch": "G#4",
+          "degree": "III"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [],
+          "right": [
+            "E4",
+            "G#4",
+            "C4",
+            "D4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "import:crf@2026-10-31",
+        "authorId": "system:crf",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "externalIds": {
+        "crf": "5e3687fa-7c3d-49a8-89ff-bd616e2950dc"
+      },
+      "hashes": {
+        "shape": "sha256:6d3c5a00390b22035fa640aa9481063ab87bf284d857c27ac41b08cfbb52d294",
+        "pitch": "sha256:f29cefe647fbfc10a1935d060c7f6593cc48075e8783fc886680e87d75fa3514"
+      }
+    }
+  ]
+}
