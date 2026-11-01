@@ -1,0 +1,146 @@
+{
+  "schema": "chordl.chord/1",
+  "chord": {
+    "id": "D:m7sus4",
+    "symbol": "Dm7sus4",
+    "root": "D",
+    "quality": "m7sus4",
+    "bass": null,
+    "aliases": []
+  },
+  "voicings": [
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_2F4BZ0KGGP41M54K053BZ2DNT6",
+      "rev": 1,
+      "previous": null,
+      "chordId": "D:m7sus4",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "D3",
+          "degree": "I"
+        },
+        {
+          "pitch": "G3",
+          "degree": "IV"
+        },
+        {
+          "pitch": "C4",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "F4",
+          "degree": "bIII"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          null,
+          null,
+          0,
+          0,
+          1,
+          1
+        ],
+        "fingers": [
+          null,
+          null,
+          null,
+          null,
+          1,
+          2
+        ],
+        "baseFret": 1,
+        "barres": [],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordl-guitar@0.3.0",
+        "authorId": "system:chordl-guitar@0.3.0",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:22a66c290280b9b82e7fda89b9115dfcfb58f609cc1501ba6030f9ae855ef3b2",
+        "pitch": "sha256:e1410a8c1e76d9e1289887d346221dd216f7f4af5495a69cb7149bc74d8d3ac6"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_77JGYAC5DA79FA7RGKPAA7T3FZ",
+      "rev": 1,
+      "previous": null,
+      "chordId": "D:m7sus4",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "D3",
+          "degree": "I"
+        },
+        {
+          "pitch": "F3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "G3",
+          "degree": "IV"
+        },
+        {
+          "pitch": "C4",
+          "degree": "bVII"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [],
+          "right": [
+            "D3",
+            "F3",
+            "G3",
+            "C4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-10-31T00:07:09.703Z",
+        "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:b6839d44b6ea0ea0d68af573a904b2c596dc8f45f517e36d7f86de71ddac33c7",
+        "pitch": "sha256:c6666a42fc02018cf75520e9f88572704bb366d86b23b6e80680fc5e9add3267"
+      }
+    }
+  ]
+}
