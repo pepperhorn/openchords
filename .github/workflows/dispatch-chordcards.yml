@@ -1,0 +1,22 @@
+name: Dispatch chordcards candidate faces
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch the exact merged range
+        env:
+          GH_TOKEN: ${{ secrets.CHORDCARDS_DISPATCH_TOKEN }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          [[ "$BEFORE" =~ ^[a-f0-9]{40}$ && ! "$BEFORE" =~ ^0+$ ]]
+          [[ "$AFTER" =~ ^[a-f0-9]{40}$ ]]
+          jq -n --arg before "$BEFORE" --arg after "$AFTER" \
+            '{event_type:"openchords-merged",client_payload:{before:$before,after:$after}}' \
+            | gh api --method POST repos/pepperhorn/chordcards/dispatches --input -
