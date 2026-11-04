@@ -221,6 +221,82 @@
     },
     {
       "schema": "chordl.voicing/1",
+      "id": "v_3JSBVKH332BGCAW64YHMQXT9Y0",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "Bb:m11",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Eb4",
+          "degree": "XI"
+        },
+        {
+          "pitch": "Ab4",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "C5",
+          "degree": "IX"
+        },
+        {
+          "pitch": "Db5",
+          "degree": "bIII"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "ukulele",
+        "tuning": [
+          "G4",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "strings": [
+          5,
+          3,
+          4,
+          4
+        ],
+        "fingers": [
+          3,
+          1,
+          2,
+          2
+        ],
+        "baseFret": 3,
+        "barres": [
+          {
+            "fret": 4,
+            "fromString": 2,
+            "toString": 3
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:914d22b269290515e6f3b999207bd982362409518f36176e437cd089651586f0",
+        "pitch": "sha256:737d8de897a738b0214a865edb4fd1819f7b953b266eacb45d9ecf60cef3ca4d"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
       "id": "v_6BNYSAPACC7WXKCN0ERZ9DASAH",
       "rev": 1,
       "previous": null,
@@ -296,6 +372,96 @@
         "authorId": "system:chordl-guitar@0.3.0",
         "createdAt": "2026-10-31T00:07:09.703Z",
         "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:2a098a287b97662da589e1e43bbd5fd4a12d56a00a9e86dce49f2522af7fbb42",
+        "pitch": "sha256:6391eeafee7df8c2b6611e84d019b186d4fdb41756a2d00ca5176ee6a95a7488"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_6BNYSAPACC7WXKCN0ERZ9DASAH",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "Bb:m11",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Bb2",
+          "degree": "I"
+        },
+        {
+          "pitch": "Db3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "Ab3",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "C4",
+          "degree": "IX"
+        },
+        {
+          "pitch": "Eb4",
+          "degree": "XI"
+        },
+        {
+          "pitch": "Ab4",
+          "degree": "bVII"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          6,
+          4,
+          6,
+          5,
+          4,
+          4
+        ],
+        "fingers": [
+          3,
+          1,
+          4,
+          2,
+          1,
+          1
+        ],
+        "baseFret": 4,
+        "barres": [
+          {
+            "fret": 4,
+            "fromString": 1,
+            "toString": 5
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
         "basedOn": null,
         "alternativeTo": null
       },

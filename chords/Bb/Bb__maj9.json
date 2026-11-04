@@ -101,6 +101,96 @@
     },
     {
       "schema": "chordl.voicing/1",
+      "id": "v_00Q8910MX94NEN021EEV5G209Z",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "Bb:maj9",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Bb2",
+          "degree": "I"
+        },
+        {
+          "pitch": "C3",
+          "degree": "IX"
+        },
+        {
+          "pitch": "F3",
+          "degree": "V"
+        },
+        {
+          "pitch": "Bb3",
+          "degree": "I"
+        },
+        {
+          "pitch": "D4",
+          "degree": "III"
+        },
+        {
+          "pitch": "A4",
+          "degree": "VII"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          6,
+          3,
+          3,
+          3,
+          3,
+          5
+        ],
+        "fingers": [
+          4,
+          1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "baseFret": 3,
+        "barres": [
+          {
+            "fret": 3,
+            "fromString": 1,
+            "toString": 4
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:dbcdbc5b6cca710788f4452f2ce2132bb8f02405586955b505dab952ccb4d29d",
+        "pitch": "sha256:8730b634ebc32eba8a6e7268a0460d17bdcd7295b541a6399f51c3f78317a107"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
       "id": "v_2SER80F39V6AWHHFR3P2E3H9HW",
       "rev": 1,
       "previous": null,
@@ -290,6 +380,82 @@
         "authorId": "system:chordl-guitar@0.3.0",
         "createdAt": "2026-10-31T00:07:09.703Z",
         "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:c3add41a45ebf390c8e7776d884be6910c85905273e180ed093f5d348c23f824",
+        "pitch": "sha256:7ec0067f669e31a80ff9fae1f990bee708452922c30f080037dc44580c9c7663"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_4HR61AVQMJAGJA47WMS3NYGGXM",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "Bb:maj9",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "D4",
+          "degree": "III"
+        },
+        {
+          "pitch": "F4",
+          "degree": "V"
+        },
+        {
+          "pitch": "A4",
+          "degree": "VII"
+        },
+        {
+          "pitch": "C5",
+          "degree": "IX"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "ukulele",
+        "tuning": [
+          "G4",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "strings": [
+          2,
+          2,
+          1,
+          3
+        ],
+        "fingers": [
+          2,
+          2,
+          1,
+          3
+        ],
+        "baseFret": 1,
+        "barres": [
+          {
+            "fret": 2,
+            "fromString": 0,
+            "toString": 1
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
         "basedOn": null,
         "alternativeTo": null
       },
