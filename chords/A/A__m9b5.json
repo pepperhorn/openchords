@@ -87,6 +87,82 @@
     },
     {
       "schema": "chordl.voicing/1",
+      "id": "v_1V08A2B270J0TFG3T5XENCVK4H",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "A:m9b5",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Eb4",
+          "degree": "bV"
+        },
+        {
+          "pitch": "G4",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "B4",
+          "degree": "IX"
+        },
+        {
+          "pitch": "C5",
+          "degree": "bIII"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "ukulele",
+        "tuning": [
+          "G4",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "strings": [
+          5,
+          3,
+          3,
+          2
+        ],
+        "fingers": [
+          4,
+          2,
+          2,
+          1
+        ],
+        "baseFret": 2,
+        "barres": [
+          {
+            "fret": 3,
+            "fromString": 1,
+            "toString": 2
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:65789913cacecdd3e3beb9a8663b4c7e3ea64d5d4fa4b1d6cfd8c4606a179253",
+        "pitch": "sha256:bbda1ad6ba47da3f6cb55d8291102e5eba65f7820c99dfaa1894b88d28528fc4"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
       "id": "v_53KT544WKEXM9ANASE1S77KNSM",
       "rev": 1,
       "previous": null,
@@ -162,6 +238,96 @@
         "authorId": "system:chordl-guitar@0.3.0",
         "createdAt": "2026-10-31T00:07:09.703Z",
         "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:a08ad3278ccd95b680933671c002cc4c429b5a70d11b01f7db7655fd68a95ece",
+        "pitch": "sha256:6df5d8ba577ebf68f835abff1c9830ded6fb72bb0cc35270efbb3f818b16b956"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_53KT544WKEXM9ANASE1S77KNSM",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "A:m9b5",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "A2",
+          "degree": "I"
+        },
+        {
+          "pitch": "Eb3",
+          "degree": "bV"
+        },
+        {
+          "pitch": "G3",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "C4",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "G4",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "B4",
+          "degree": "IX"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          5,
+          6,
+          5,
+          5,
+          8,
+          7
+        ],
+        "fingers": [
+          1,
+          2,
+          1,
+          1,
+          4,
+          3
+        ],
+        "baseFret": 5,
+        "barres": [
+          {
+            "fret": 5,
+            "fromString": 0,
+            "toString": 3
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
         "basedOn": null,
         "alternativeTo": null
       },
