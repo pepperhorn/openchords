@@ -278,6 +278,99 @@
     },
     {
       "schema": "chordl.voicing/1",
+      "id": "v_302JAZV55DSTJC633YCYEHZJ65",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "F:sus4",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "F2",
+          "degree": "I"
+        },
+        {
+          "pitch": "C3",
+          "degree": "V"
+        },
+        {
+          "pitch": "F3",
+          "degree": "I"
+        },
+        {
+          "pitch": "Bb3",
+          "degree": "IV"
+        },
+        {
+          "pitch": "C4",
+          "degree": "V"
+        },
+        {
+          "pitch": "F4",
+          "degree": "I"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          1,
+          3,
+          3,
+          3,
+          1,
+          1
+        ],
+        "fingers": [
+          1,
+          2,
+          3,
+          4,
+          1,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          {
+            "fret": 1,
+            "fromString": 0,
+            "toString": 5
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "externalIds": {
+        "crf": "68ad798c-4068-43ec-b963-55b0e31c2f55"
+      },
+      "hashes": {
+        "shape": "sha256:215b826c665a6bcbe36cf5b6ac9d0b83320b9d199b84d4680baee1d61d1bc6d4",
+        "pitch": "sha256:5601998c97528a24c80a473494a7196f620429eb57ceeef6962b4c8df13c1cac"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
       "id": "v_31K1TQD0EJZZX87RA797GS0SWF",
       "rev": 1,
       "previous": null,
@@ -418,6 +511,82 @@
         "authorId": "system:chordl-guitar@0.3.0",
         "createdAt": "2026-10-31T00:07:09.703Z",
         "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:0c81ccca90abca6c2f013335734bf2bcc8bd9faf64ab358c459aa76efb145680",
+        "pitch": "sha256:487cf0f134ec39d0b4d5403cf5410c7012d2999ed329ebca6dbdadbc6635bfa2"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_4C8AYEJ9WA8SDR1V2QJC6DVZ10",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "F:sus4",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "C4",
+          "degree": "V"
+        },
+        {
+          "pitch": "F4",
+          "degree": "I"
+        },
+        {
+          "pitch": "Bb4",
+          "degree": "IV"
+        },
+        {
+          "pitch": "Bb4",
+          "degree": "IV"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "ukulele",
+        "tuning": [
+          "G4",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "strings": [
+          3,
+          0,
+          1,
+          1
+        ],
+        "fingers": [
+          3,
+          null,
+          1,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          {
+            "fret": 1,
+            "fromString": 2,
+            "toString": 3
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
         "basedOn": null,
         "alternativeTo": null
       },
