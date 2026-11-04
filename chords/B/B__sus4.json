@@ -206,6 +206,82 @@
     },
     {
       "schema": "chordl.voicing/1",
+      "id": "v_3H4RYQYSY7X580TYDJ15JR5WFM",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "B:sus4",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "E4",
+          "degree": "IV"
+        },
+        {
+          "pitch": "F#4",
+          "degree": "V"
+        },
+        {
+          "pitch": "B4",
+          "degree": "I"
+        },
+        {
+          "pitch": "B4",
+          "degree": "I"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "ukulele",
+        "tuning": [
+          "G4",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "strings": [
+          4,
+          4,
+          2,
+          2
+        ],
+        "fingers": [
+          3,
+          4,
+          1,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          {
+            "fret": 2,
+            "fromString": 2,
+            "toString": 3
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:37b5d74ac55d41204421af2bf69a97b599f4b2e6cc365ee5af2fcdf93104d148",
+        "pitch": "sha256:fd6ecc67b7040c99cd91b387fa3e75177fb87e4877e1737e2b39ec540e08502e"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
       "id": "v_3Q7MGVFZNJ914RJYYFXWZB8V6D",
       "rev": 1,
       "previous": null,
@@ -333,6 +409,96 @@
         "authorId": "system:chordl-guitar@0.3.0",
         "createdAt": "2026-10-31T00:07:09.703Z",
         "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:073031c8fb8742f2f02dbdc7c73b4e398f2d223123fd58b90fbed5fc4e876e7c",
+        "pitch": "sha256:792578515bfa35b70089dcd9e74d2533de4862c0c4ec92d9969994dbec8ae597"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_584F7VZTY6EQ4XYYPR91R34HXN",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "B:sus4",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "B2",
+          "degree": "I"
+        },
+        {
+          "pitch": "F#3",
+          "degree": "V"
+        },
+        {
+          "pitch": "B3",
+          "degree": "I"
+        },
+        {
+          "pitch": "E4",
+          "degree": "IV"
+        },
+        {
+          "pitch": "F#4",
+          "degree": "V"
+        },
+        {
+          "pitch": "B4",
+          "degree": "I"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          7,
+          9,
+          9,
+          9,
+          7,
+          7
+        ],
+        "fingers": [
+          1,
+          2,
+          3,
+          4,
+          1,
+          1
+        ],
+        "baseFret": 7,
+        "barres": [
+          {
+            "fret": 7,
+            "fromString": 0,
+            "toString": 5
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
         "basedOn": null,
         "alternativeTo": null
       },
