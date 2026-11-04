@@ -87,6 +87,82 @@
     },
     {
       "schema": "chordl.voicing/1",
+      "id": "v_2EV7RNZTY8YHWRYH5PXPTXGJZP",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "Eb:add9",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Eb4",
+          "degree": "I"
+        },
+        {
+          "pitch": "F4",
+          "degree": "IX"
+        },
+        {
+          "pitch": "G4",
+          "degree": "III"
+        },
+        {
+          "pitch": "Bb4",
+          "degree": "V"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "ukulele",
+        "tuning": [
+          "G4",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "strings": [
+          0,
+          3,
+          1,
+          1
+        ],
+        "fingers": [
+          null,
+          3,
+          1,
+          1
+        ],
+        "baseFret": 1,
+        "barres": [
+          {
+            "fret": 1,
+            "fromString": 2,
+            "toString": 3
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:51d61195ffb83fe481d5934f6eb469416e8cbf523aa579b63cd3c34c7bfba490",
+        "pitch": "sha256:f7be48cad8b11f90bbd6ad31ab3bbcbab9808dc4497c8b5cfec449813af75c48"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
       "id": "v_4CRYC9RSNAZXZPV0HAX60K42VC",
       "rev": 1,
       "previous": null,
@@ -158,6 +234,95 @@
         "authorId": "system:chordl-guitar@0.3.0",
         "createdAt": "2026-10-31T00:07:09.703Z",
         "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "externalIds": {
+        "crf": "c91f7ee7-57c9-443b-833a-e8c525a0d228"
+      },
+      "hashes": {
+        "shape": "sha256:2fc37831bcaad00d307532c393cf5aeec27aac2c47ef5268da440c2f75e5e25a",
+        "pitch": "sha256:74a886bbf420833397d765544914f6c789435794231293bdcf6271f25db03bfa"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_4CRYC9RSNAZXZPV0HAX60K42VC",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "Eb:add9",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Eb3",
+          "degree": "I"
+        },
+        {
+          "pitch": "G3",
+          "degree": "III"
+        },
+        {
+          "pitch": "Bb3",
+          "degree": "V"
+        },
+        {
+          "pitch": "F4",
+          "degree": "IX"
+        },
+        {
+          "pitch": "G4",
+          "degree": "III"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          null,
+          6,
+          5,
+          3,
+          6,
+          3
+        ],
+        "fingers": [
+          null,
+          3,
+          2,
+          1,
+          4,
+          1
+        ],
+        "baseFret": 3,
+        "barres": [
+          {
+            "fret": 3,
+            "fromString": 3,
+            "toString": 5
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
         "basedOn": null,
         "alternativeTo": null
       },
