@@ -149,6 +149,82 @@
     },
     {
       "schema": "chordl.voicing/1",
+      "id": "v_5JMRJFNH7FDWVSF6R5Y4M16AYD",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "Bb:m9",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Db4",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "F4",
+          "degree": "V"
+        },
+        {
+          "pitch": "Ab4",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "C5",
+          "degree": "IX"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "ukulele",
+        "tuning": [
+          "G4",
+          "C4",
+          "E4",
+          "A4"
+        ],
+        "strings": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "fingers": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "baseFret": 1,
+        "barres": [
+          {
+            "fret": 1,
+            "fromString": 0,
+            "toString": 2
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:2d7dab81a550112be033b02a98a53e85b91c690548656584595d7ac467f3e1b9",
+        "pitch": "sha256:82da6bb9083223f7a3b260ffe885646288634b08b0a1f0fc3fa8d5724663a165"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
       "id": "v_5RNRKAEEP4Q7KYZG2JEWTCB307",
       "rev": 1,
       "previous": null,
@@ -286,6 +362,92 @@
         "authorId": "system:chordl-guitar@0.3.0",
         "createdAt": "2026-10-31T00:07:09.703Z",
         "changeNote": null,
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:d7b3f8b34473d94aa929e2a6a1f24c00fcaa6ca80ee68fb350b0f7ffaded5bf0",
+        "pitch": "sha256:359e9f613505c40519cd2e3856c4a31d687940ab1764dda5af310f47db0c2962"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_7M0K718D4JKRWA1TNBJZNB9G7C",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "Bb:m9",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "Bb2",
+          "degree": "I"
+        },
+        {
+          "pitch": "Db3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "C4",
+          "degree": "IX"
+        },
+        {
+          "pitch": "F4",
+          "degree": "V"
+        },
+        {
+          "pitch": "Ab4",
+          "degree": "bVII"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          6,
+          4,
+          null,
+          5,
+          6,
+          4
+        ],
+        "fingers": [
+          3,
+          1,
+          null,
+          2,
+          4,
+          1
+        ],
+        "baseFret": 4,
+        "barres": [
+          {
+            "fret": 4,
+            "fromString": 1,
+            "toString": 5
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "system:chordcards",
+        "createdAt": "2026-11-04T02:50:26.523Z",
+        "changeNote": "Fill fingers under barre (0008)",
         "basedOn": null,
         "alternativeTo": null
       },
