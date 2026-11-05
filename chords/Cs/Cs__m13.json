@@ -227,6 +227,79 @@
         "shape": "sha256:45f8c971b87b5f0ad4fb007385b1d97f4e40cf7a48f8f3eefeab804591b54bcc",
         "pitch": "sha256:89ef4da61c03a26c3d61376f061ab2acaa69386385b7919984ff0aa6f3495cab"
       }
+    },
+    {
+      "schema": "chordl.voicing/1",
+      "id": "v_7NM8J44ANGSJV4W0YKS5557ZV0",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "C#:m13",
+      "status": "live",
+      "tier": "curated",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "C#3",
+          "degree": "I"
+        },
+        {
+          "pitch": "E3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "G#3",
+          "degree": "V"
+        },
+        {
+          "pitch": "B3",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "D#4",
+          "degree": "IX"
+        },
+        {
+          "pitch": "F#4",
+          "degree": "XI"
+        },
+        {
+          "pitch": "A#4",
+          "degree": "XIII"
+        }
+      ],
+      "realization": {
+        "kind": "keyboard",
+        "hands": {
+          "left": [
+            "C#3",
+            "E3"
+          ],
+          "right": [
+            "G#3",
+            "B3",
+            "D#4",
+            "F#4",
+            "A#4"
+          ]
+        }
+      },
+      "provenance": {
+        "source": "system:chordcards",
+        "authorId": "gh:pepperhorn",
+        "createdAt": "2026-11-05T10:20:00.000Z",
+        "changeNote": "Spell the retained perfect 11th as F#4 instead of Gb4; pitches unchanged (chordcards ADR 0001 ruling 4).",
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:45f8c971b87b5f0ad4fb007385b1d97f4e40cf7a48f8f3eefeab804591b54bcc",
+        "pitch": "sha256:89ef4da61c03a26c3d61376f061ab2acaa69386385b7919984ff0aa6f3495cab"
+      }
     }
   ]
 }

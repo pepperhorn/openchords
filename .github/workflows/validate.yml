@@ -18,6 +18,7 @@ jobs:
           node-version: 22
       - run: npm ci
       - run: npx chordl-voicing format --check
+      - run: npm test
       - name: Validate against the base branch
         if: github.event_name == 'pull_request'
         run: |
