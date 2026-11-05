@@ -243,6 +243,92 @@
     },
     {
       "schema": "chordl.voicing/1",
+      "id": "v_4EWJPHDF8DSWTMFV2NZ98FEE95",
+      "rev": 2,
+      "previous": 1,
+      "chordId": "G#:m13",
+      "status": "live",
+      "tier": "community",
+      "licence": "CC0-1.0",
+      "notes": [
+        {
+          "pitch": "G#2",
+          "degree": "I"
+        },
+        {
+          "pitch": "C#3",
+          "degree": "XI"
+        },
+        {
+          "pitch": "F#3",
+          "degree": "bVII"
+        },
+        {
+          "pitch": "B3",
+          "degree": "bIII"
+        },
+        {
+          "pitch": "E#4",
+          "degree": "XIII"
+        }
+      ],
+      "realization": {
+        "kind": "fretted",
+        "instrument": "guitar",
+        "tuning": [
+          "E2",
+          "A2",
+          "D3",
+          "G3",
+          "B3",
+          "E4"
+        ],
+        "strings": [
+          4,
+          4,
+          4,
+          4,
+          6,
+          null
+        ],
+        "fingers": [
+          null,
+          null,
+          null,
+          null,
+          3,
+          null
+        ],
+        "baseFret": 4,
+        "barres": [
+          {
+            "fret": 4,
+            "fromString": 0,
+            "toString": 3
+          }
+        ],
+        "capo": null
+      },
+      "provenance": {
+        "source": "system:chordl-guitar@0.3.0",
+        "authorId": "gh:pepperhorn",
+        "createdAt": "2026-11-05T10:27:00.000Z",
+        "changeNote": "Spell the retained perfect 11th as C#3 instead of Db3; pitches and guitar realization unchanged (chordcards ADR 0001 ruling 4).",
+        "basedOn": null,
+        "alternativeTo": null
+      },
+      "relations": {
+        "supersedes": null,
+        "supersededBy": null,
+        "duplicateOf": null
+      },
+      "hashes": {
+        "shape": "sha256:28fd7197ceaa4fd5c7e30b023215f17e1b7b6d2340e63da87ff3ec7bbbba2e9a",
+        "pitch": "sha256:418320e54f5f7cc77f2001c995c5bdba9d3a331584643f3bce74171b3d87d908"
+      }
+    },
+    {
+      "schema": "chordl.voicing/1",
       "id": "v_50P3BCKJGNTJJKJD2M5S7ZH2E3",
       "rev": 1,
       "previous": null,
