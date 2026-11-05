@@ -50,3 +50,49 @@ for (const root of roots) {
     });
   }
 }
+
+// Four guitar records share the seed spelling fallback. They were hidden by the
+// keyboard differences in the per-chord consumer report, not a separate sound bug.
+const guitarCorrections = [
+  ["C#:m13", "v_57XCSNXXQD0M1JJXDD988BPJSW", "Gb3", "F#3"],
+  ["Gb:m13", "v_2V5JTPSZDS1TW6CT3T1QB6PGPT", "B2", "Cb3"],
+  ["G#:m13", "v_4EWJPHDF8DSWTMFV2NZ98FEE95", "Db3", "C#3"],
+  ["G#:m13#5", "v_5SV052EBAYBT2AP6A3TQXM8PX7", "Db3", "C#3"],
+];
+for (const [chordId, id, before, after] of guitarCorrections) {
+  test(`${chordId}: guitar 11 correction preserves the complete realization`, () => {
+    const file = JSON.parse(readFileSync(new URL(`../${chordFilePath(chordId)}`, import.meta.url), "utf8"));
+    const original = file.voicings.find(v => v.id === id && v.rev === 1);
+    const revised = file.voicings.find(v => v.id === id && v.rev === 2);
+    assert.ok(original && revised, "retain rev 1 and append rev 2");
+    assert.equal(revised.previous, 1);
+    assert.equal(original.notes.filter(n => n.pitch === before).length, 1);
+    assert.deepEqual(revised.notes, original.notes.map(n => n.pitch === before ? { pitch: after, degree: "XI" } : n));
+    assert.deepEqual(revised.realization, original.realization);
+    assert.deepEqual(revised.hashes, original.hashes);
+    assert.equal(parsePitch(before).midi, parsePitch(after).midi);
+    assert.equal(revised.status, original.status);
+    assert.equal(revised.tier, original.tier);
+  });
+}
+
+for (const root of roots) {
+  for (const quality of qualities) {
+    const chordId = `${root}:${quality}`;
+    test(`${chordId}: every instrument spells any retained perfect 11 strictly`, () => {
+      const file = JSON.parse(readFileSync(new URL(`../${chordFilePath(chordId)}`, import.meta.url), "utf8"));
+      const latest = new Map();
+      for (const v of file.voicings) {
+        if (!latest.has(v.id) || latest.get(v.id).rev < v.rev) latest.set(v.id, v);
+      }
+      const eleventh = Note.transpose(root, "11P");
+      for (const v of latest.values()) {
+        if (v.status !== "live") continue;
+        for (const n of v.notes.filter(n => parsePitch(n.pitch).pc === Note.chroma(eleventh))) {
+          assert.equal(Note.pitchClass(n.pitch), eleventh, `${v.id}@${v.rev}`);
+          assert.equal(n.degree, "XI", `${v.id}@${v.rev}`);
+        }
+      }
+    });
+  }
+}
