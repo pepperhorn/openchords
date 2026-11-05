@@ -6,7 +6,8 @@
   "repository": { "type": "git", "url": "git+https://github.com/pepperhorn/openchords.git" },
   "files": ["dist"],
   "scripts": {
-    "validate": "chordl-voicing validate --licences licences.json",
+    "test": "node --test",
+    "validate": "chordl-voicing validate --licences licences.json && npm test",
     "format": "chordl-voicing format",
     "bundle": "chordl-voicing bundle --out dist"
   },
