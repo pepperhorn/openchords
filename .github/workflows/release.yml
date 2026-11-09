@@ -30,6 +30,9 @@ jobs:
         with:
           node-version: 22
           registry-url: https://registry.npmjs.org
+      - name: Upgrade npm
+        if: steps.changes.outputs.skip != 'true'
+        run: npm install -g npm@^11.5.1
       - if: steps.changes.outputs.skip != 'true'
         run: npm ci
       - if: steps.changes.outputs.skip != 'true'
